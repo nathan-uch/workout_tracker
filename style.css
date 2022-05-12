@@ -1,0 +1,76 @@
+h1 {
+    margin: 17px;
+}
+
+.displayContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectedWorkoutDisplay {
+    margin: 10px 17px;
+    display: inline;
+}
+
+.workoutDay {
+    margin: 0 17px;
+}
+
+.editWorkoutDayBtn {
+    visibility: hidden;
+    margin: 0 0 10px 0;
+}
+
+.workoutForm{
+    display: inline;
+}
+
+table {
+    margin: 15px;
+}
+
+td, th {
+    border: 2px solid black;
+    width: auto;
+    height: 35px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 0 10px;
+}
+
+.sets, .reps, .weight {
+    width: 40px;
+}
+
+.bodyPart, .exercise {
+    width: 130px;
+}
+
+.addRowBtn {
+    margin: 0 17px;
+}
+
+.bodyPartHeader {
+    height: 35px;
+    width: 107px;
+}
+
+.exerciseHeader {
+    padding: 0 10px;
+    height: 35px;
+    width: 112px;
+}
+
+.setsHeader {
+    height: 30px;
+    width: 35px;
+}
+
+.weightHeader {
+    width: 80px;
+}

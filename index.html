@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Workout</title>
+
+</head>
+<body>
+    <h1>Workout</h1> 
+    <div class="displayContainer">
+        <div class="selectedWorkoutDisplay"></div>
+        <button class="editWorkoutDayBtn">Edit</button>
+        <form onsubmit="return false" class="workoutForm">
+            <select class="workoutDay">
+                <option value="backBi">Back and Biceps</option>
+                <option value="chestTri">Chest and Triceps</option>
+                <option value="leg">Legs</option>
+                <option value="shouldersArms">Shoulders and Arms</option>
+            </select>
+            <button class="saveDayBtn">Save</button>
+        </form>
+    </div>
+    <table id="table">
+        <tr>
+            <th class="exerciseHeader">Exercise</th>
+            <th class="bodyPartHeader">Body Part</th>
+            <th class="equipment">Equipment</th>
+            <th class="setsHeader">Sets</th>
+            <th class="repsHeader">Reps</th>
+            <th class="weightHeader">Weight<span> (lb)</span></th>
+            <th class="volumeHeader">Volume</th>
+        </tr>
+    </table>
+    <button type="button" class="addRowBtn">Add Row</button>
+    <script src="script.js"></script>
+</body>
+</html>
